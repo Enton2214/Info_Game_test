@@ -22,10 +22,10 @@
     "name": "doubles0",
     "doubles": [
       20.0,
-      0.0036111111111111114,
+      0.03111111111111102,
       4.0,
-      320.0,
-      310.0
+      371.6654126807565,
+      239.97464516129028
     ]
   },
   "strings2": {
@@ -57,7 +57,7 @@
   "menuBools": {
     "name": "menuBools",
     "booleans": [
-      false,
+      true,
       false,
       false
     ]
@@ -65,13 +65,13 @@
   "frameRate": {
     "name": "frameRate",
     "integers": [
-      30
+      80
     ]
   },
   "strings1": {
     "name": "strings1",
     "strings": [
-      "Neue Datei",
+      "Coole Datei",
       "nichts",
       "Hobbylos",
       "Timmy",

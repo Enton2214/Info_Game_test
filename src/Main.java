@@ -1044,6 +1044,8 @@ public class Main {
         player.name = NameTimmy;
         finja.name = NameFinja;
         kizo.name = NameKizo;
+        player.isMoving = false;
+        player.isSprinting = false;
 
         gameDisplay.cineBarShow = false;
         gameIsPaused = false;

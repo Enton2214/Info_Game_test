@@ -519,7 +519,7 @@ public class Player extends Entity {
 
         }else if(!main.sprinting){
 
-            int frame = changeSprite(framesDown.size(),sprintDownFrames.size());
+            int frame = changeSprite(framesDown.size(),framesDown.size());
 
             switch (playerLookDirection){
                 case up -> {
@@ -546,7 +546,7 @@ public class Player extends Entity {
 
 
         }else {
-            int frame = changeSprite(framesDown.size(),sprintDownFrames.size());
+            int frame = changeSprite(sprintDownFrames.size(),sprintDownFrames.size());
 
             switch (playerLookDirection){
                 case up -> {
