@@ -1,0 +1,83 @@
+{
+  "strings1": {
+    "name": "strings1",
+    "strings": [
+      "Neue Datei  ",
+      "nichts",
+      "Hobbylos",
+      "Timmy",
+      "Finja",
+      "K.i.z.o"
+    ]
+  },
+  "strings0": {
+    "name": "strings0",
+    "strings": [
+      "Neue Datei  ",
+      "nichts",
+      "Hobbylos",
+      "Timmy",
+      "Finja",
+      "K.i.z.o"
+    ]
+  },
+  "ints2": {
+    "name": "ints2",
+    "integers": [
+      0,
+      4,
+      6,
+      7,
+      23,
+      34,
+      2,
+      56,
+      6,
+      3,
+      1
+    ]
+  },
+  "ints1": {
+    "name": "ints1",
+    "integers": [
+      0,
+      4,
+      6,
+      7,
+      23,
+      34,
+      2,
+      56,
+      6,
+      3,
+      1
+    ]
+  },
+  "ints0": {
+    "name": "ints0",
+    "integers": [
+      0,
+      4,
+      6,
+      7,
+      23,
+      34,
+      2,
+      56,
+      6,
+      3,
+      1
+    ]
+  },
+  "strings2": {
+    "name": "strings2",
+    "strings": [
+      "Neue Datei  ",
+      "nichts",
+      "Hobbylos",
+      "Timmy",
+      "Finja",
+      "K.i.z.o"
+    ]
+  }
+}

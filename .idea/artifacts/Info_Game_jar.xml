@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Info_Game:jar">
+    <output-path>$USER_HOME$/Desktop/Info Game</output-path>
+    <root id="archive" name="Info_Game_test.jar">
+      <element id="module-output" name="Info_Game_test" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/gson-2.11.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

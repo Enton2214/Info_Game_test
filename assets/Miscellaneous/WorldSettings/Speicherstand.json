@@ -1,0 +1,389 @@
+{
+  "doubles1": {
+    "name": "doubles1",
+    "doubles": [
+      20.0,
+      0.0,
+      4.0,
+      0.0,
+      0.0
+    ]
+  },
+  "volumes": {
+    "name": "volumes",
+    "doubles": [
+      0.7,
+      0.5,
+      1.0,
+      1.0
+    ]
+  },
+  "doubles0": {
+    "name": "doubles0",
+    "doubles": [
+      20.0,
+      0.0036111111111111114,
+      4.0,
+      320.0,
+      310.0
+    ]
+  },
+  "strings2": {
+    "name": "strings2",
+    "strings": [
+      "Neue Datei",
+      "nichts",
+      "Hobbylos",
+      "Timmy",
+      "Finja",
+      "K.i.z.o",
+      "nichts",
+      "nichts",
+      "nichts",
+      "nichts",
+      "nichts",
+      "nichts",
+      "nichts",
+      "nichts",
+      "nichts",
+      "nichts",
+      "nichts",
+      "nichts",
+      "nichts",
+      "nichts",
+      "nichts"
+    ]
+  },
+  "menuBools": {
+    "name": "menuBools",
+    "booleans": [
+      false,
+      false,
+      false
+    ]
+  },
+  "frameRate": {
+    "name": "frameRate",
+    "integers": [
+      30
+    ]
+  },
+  "strings1": {
+    "name": "strings1",
+    "strings": [
+      "Neue Datei",
+      "nichts",
+      "Hobbylos",
+      "Timmy",
+      "Finja",
+      "K.i.z.o",
+      "nichts",
+      "nichts",
+      "nichts",
+      "nichts",
+      "nichts",
+      "nichts",
+      "nichts",
+      "nichts",
+      "nichts",
+      "nichts",
+      "nichts",
+      "nichts",
+      "nichts",
+      "nichts",
+      "nichts"
+    ]
+  },
+  "strings0": {
+    "name": "strings0",
+    "strings": [
+      "Coole Datei",
+      "Pizza",
+      "Das Rätsel um die 25. Stunde spielen",
+      "Timmy",
+      "Finja",
+      "K.i.z.o",
+      "nichts",
+      "nichts",
+      "nichts",
+      "nichts",
+      "nichts",
+      "nichts",
+      "nichts",
+      "nichts",
+      "nichts",
+      "nichts",
+      "nichts",
+      "nichts",
+      "nichts",
+      "nichts",
+      "nichts"
+    ]
+  },
+  "booleans0": {
+    "name": "booleans0",
+    "booleans": [
+      false,
+      true,
+      false
+    ]
+  },
+  "ints2": {
+    "name": "ints2",
+    "integers": [
+      2,
+      1,
+      1,
+      20,
+      20,
+      20,
+      10,
+      10,
+      10,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      50,
+      50,
+      50,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      20,
+      20,
+      20,
+      10,
+      10,
+      10,
+      15,
+      15,
+      15,
+      20,
+      20,
+      20,
+      0,
+      0,
+      0
+    ],
+    "timmyInventory": [],
+    "finjaInventory": [],
+    "kizoInventory": []
+  },
+  "ints1": {
+    "name": "ints1",
+    "integers": [
+      2,
+      1,
+      1,
+      20,
+      20,
+      20,
+      10,
+      10,
+      10,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      50,
+      50,
+      50,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      20,
+      20,
+      20,
+      10,
+      10,
+      10,
+      15,
+      15,
+      15,
+      20,
+      20,
+      20,
+      0,
+      0,
+      0
+    ],
+    "timmyInventory": [],
+    "finjaInventory": [],
+    "kizoInventory": []
+  },
+  "booleans2": {
+    "name": "booleans2",
+    "booleans": [
+      true,
+      false,
+      false
+    ]
+  },
+  "themeColors": {
+    "name": "themeColors",
+    "colors": [
+      -11529438,
+      -10747887,
+      -65409,
+      -103,
+      -8316705,
+      -8842349,
+      -14023593
+    ]
+  },
+  "ints0": {
+    "name": "ints0",
+    "integers": [
+      2,
+      1,
+      1,
+      20,
+      20,
+      20,
+      10,
+      10,
+      10,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      50,
+      50,
+      50,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      20,
+      20,
+      20,
+      10,
+      10,
+      10,
+      15,
+      15,
+      15,
+      20,
+      20,
+      20,
+      0,
+      0,
+      0
+    ],
+    "timmyInventory": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      20
+    ],
+    "finjaInventory": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "kizoInventory": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      0
+    ]
+  },
+  "booleans1": {
+    "name": "booleans1",
+    "booleans": [
+      true,
+      false,
+      false
+    ]
+  },
+  "doubles2": {
+    "name": "doubles2",
+    "doubles": [
+      20.0,
+      0.0,
+      4.0,
+      0.0,
+      0.0
+    ]
+  },
+  "keyBinds": {
+    "name": "keyBinds",
+    "integers": [
+      87,
+      65,
+      83,
+      68,
+      69,
+      81,
+      77,
+      32
+    ]
+  }
+}

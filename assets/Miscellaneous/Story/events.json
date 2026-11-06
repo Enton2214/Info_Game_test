@@ -1,0 +1,45 @@
+{
+  "event_finja_talk": {
+    "id": "event_finja_talk",
+    "speaker": "{finjaName}",
+    "requiredFlag": "met_finja",
+    "dialogue": [
+      "Hallo {timmyName}! Ich bin {finjaName}.",
+      "In dieser 25. Stunde laufen merkwürdige Dinge ab.m m m m m m m m m m m m m  m m m m m m m m mm m m m m m m  mm m m m m m m m m m  mm m  mm  m",
+      "...",
+      "Suchst du auch nach den Uhrzahnrädern?",
+      "...",
+      "[Ja;finja_talk_yes]  [Inventar;openInv]   [Nein;no]",
+      "hallo",
+      "huhu"
+    ],
+    "dialogueIfTrue": [
+      "Schön dich wiederzusehen, {timmyName}!",
+      "Hast du schon auf dem Schrottplatz nachgesehen?"
+    ]
+  },"finja_talk_yes":{
+  "dialogue": [
+    "Danke {timmyName}! Du bist der Beste.",
+    "wirklich Dankeee :)"
+    ],
+  "nextEventId": "test"
+  },
+  "generic_bookshelf": {
+    "id": "generic_bookshelf",
+    "speaker": "System",
+    "dialogue": [
+      "Ein altes, verstaubtes Bücherregal.",
+      "Die meisten Titel sind unleserlich geworden."
+    ]
+  },
+  "test": {
+    "speaker": "finja",
+    "dialogue": [
+      "test",
+      "[ich;me][Du;you]"
+    ]
+
+
+
+  }
+}

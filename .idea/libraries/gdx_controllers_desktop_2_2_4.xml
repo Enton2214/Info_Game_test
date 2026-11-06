@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="gdx-controllers-desktop-2.2.4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libaries/gdx-controllers-desktop-2.2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libaries/gdx-controllers-core-2.2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libaries/gdx-1.14.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
