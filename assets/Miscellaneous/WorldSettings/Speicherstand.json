@@ -58,7 +58,7 @@
     "name": "menuBools",
     "booleans": [
       false,
-      false,
+      true,
       false
     ]
   },

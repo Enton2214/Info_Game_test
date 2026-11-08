@@ -279,8 +279,6 @@ public class Player extends Entity {
 
         main.playerTargetWorldX += playerDirectionX * playerSpeed;
         main.playerTargetWorldY += playerDirectionY * playerSpeed;
-        //Collision Checken
-
 
         double targetX = main.playerWorldX + playerDirectionX * playerSpeed;
         double targetY = main.playerWorldY + playerDirectionY * playerSpeed;
@@ -417,7 +415,7 @@ public class Player extends Entity {
                             if (distToPlayer <= maxDistanceToPlayer && distToTarget <= maxDistanceToTarget) {
                                 String tileName = Main.tileManager.tile[tileId].name.trim().toLowerCase();
 
-                                if (tileName.equals("wackamolemachine")) {
+                                if (tileName.equals("wackamolemachine3")) {
                                     Main.wamAcardeManager.startGame();
                                     return;
                                 }

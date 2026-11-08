@@ -1043,7 +1043,6 @@ public class Main {
 
     public void loadGameOnVars(boolean newGame){
         setupGame(newGame);
-        //Game mit Variablen starten
         player.name = NameTimmy;
         finja.name = NameFinja;
         kizo.name = NameKizo;
