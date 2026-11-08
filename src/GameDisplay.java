@@ -966,6 +966,10 @@ public class GameDisplay extends JPanel implements MouseListener, MouseMotionLis
     @Override
     public void mousePressed(MouseEvent e) {
 
+        if (arcadeIsActive){
+            Main.wamAcardeManager.mousePressed(e);
+        }
+
         int mouseX = e.getX();
         int mouseY = e.getY();
 
@@ -1209,7 +1213,6 @@ public class GameDisplay extends JPanel implements MouseListener, MouseMotionLis
         chosedInvCharacter.removeFromInventory(itemNum);
         itemInfoShown = false;
         itemStartScroll = Math.max(itemStartScroll-1,0);
-        //dropSound abspielen
     }
     public void abbrechen() {
         chosedItemButton =0;
@@ -1240,9 +1243,11 @@ public class GameDisplay extends JPanel implements MouseListener, MouseMotionLis
     @Override
     public void mouseMoved(MouseEvent e) {
 
+        if (arcadeIsActive) {
+            Main.wamAcardeManager.mouseMoved(e);
+        }
         int mouseX = e.getX();
         int mouseY = e.getY();
-
 
 
         if (main.invIsOpen){

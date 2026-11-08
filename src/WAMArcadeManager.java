@@ -1,5 +1,6 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.MouseEvent;
 
 public class WAMArcadeManager{
     //WAM = Wack a mole
@@ -35,6 +36,19 @@ public class WAMArcadeManager{
     public void repaintGame(Graphics2D g2, JPanel panel){
         g2.setColor(Color.RED);
         g2.fillRect(0,0,panel.getWidth()/2,panel.getHeight()/2);
+
+    }
+    //wird ausgeführt, wenn mausButton gedrückt wird
+    public void mousePressed(MouseEvent e){
+        int mouseX = e.getX();
+        int mouseY = e.getY();
+        main.printOnDebug("mousePressed");
+    }
+    //wird ausgeführt, wenn die maus bewegt wird
+    public void mouseMoved(MouseEvent e){
+        int  mouseX = e.getX();
+        int mouseY = e.getY();
+        main.printOnDebug("mouseMoved");
 
     }
 
