@@ -37,10 +37,6 @@ public class FoodSeller extends Entity{
 
     }
 
-    public void update() {
-
-
-    }
 
     @Override
     public void onInteract(Player player) {

@@ -398,3 +398,8 @@ wiese.png
 false
 false
 
+WackAMoleMachine.png
+37
+false
+false
+

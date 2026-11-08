@@ -200,15 +200,18 @@ public class Player extends Entity {
                 playerSpeed = ((main.playerTargetSpeed*15)/main.reachedFPS);
                 playerSpeed *= 1.6;
                 main.sprinting = true;
+                sprinting = true;
             }else {
                 playerSpeed = (main.playerTargetSpeed*15)/main.reachedFPS;
                 main.sprinting = false;
+                sprinting = false;
             }
 
 
 
         }else{
             main.sprinting = false;
+            sprinting = false;
             playerSpeed = (main.playerTargetSpeed*15)/main.reachedFPS;
             if ((double) (System.currentTimeMillis() - lastStaminaReg) /1000 >=1.2&&isMoving){
                 stamina = Math.min(stamina+=1,maxStamina);
@@ -414,8 +417,8 @@ public class Player extends Entity {
                             if (distToPlayer <= maxDistanceToPlayer && distToTarget <= maxDistanceToTarget) {
                                 String tileName = Main.tileManager.tile[tileId].name.trim().toLowerCase();
 
-                                if (tileName.equals("baum")) {
-                                    main.printOnDebug("Baum ist bereit!");
+                                if (tileName.equals("wackamolemachine")) {
+                                    Main.wamAcardeManager.startGame();
                                     return;
                                 }
                             }

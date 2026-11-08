@@ -528,6 +528,21 @@ public class Entity implements Interactable{
         return currentFrameNum;
     }
 
+    public void updateEntity() {
+        if (leader!=null) {
+            if (leader.isSweating) {
+                isSweating = true;
+            } else {
+                isSweating = false;
+            }
+            if (leader.sprinting) {
+                sprinting = true;
+            } else {
+                sprinting = false;
+            }
+        }
+    }
+
 
     @Override
     public void onInteract(Player player) {

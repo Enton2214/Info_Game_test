@@ -31,6 +31,8 @@ public class GameDisplay extends JPanel implements MouseListener, MouseMotionLis
     public BufferedImage pauseButtonFG;
 
 
+    public boolean arcadeIsActive=false;
+
     //dialog
     boolean cineBarShow = false;
     boolean isAnswerTime = false;
@@ -98,8 +100,6 @@ public class GameDisplay extends JPanel implements MouseListener, MouseMotionLis
 
     long lastHPTime =0;
 
-    ArrayList<EventData> dialogList = new ArrayList<>();
-
 
     Picture[] invUI = new Picture[8];
     Picture BGAlpha = new Picture();
@@ -157,7 +157,19 @@ public class GameDisplay extends JPanel implements MouseListener, MouseMotionLis
         //Entity Positionen und so updaten
         transform.updateTimmy();
         player.update();
+        for (Entity npc: main.npcList){
+            npc.updateEntity();
+        }
         //Entitys Updaten
+    }
+
+    public void updateArcade(){
+        switch (main.gameStatus){
+            case WackAMole -> {
+                Main.wamAcardeManager.updateGame();
+            }
+
+        }
     }
 
     public void reloadDialogUI(){
@@ -250,27 +262,28 @@ public class GameDisplay extends JPanel implements MouseListener, MouseMotionLis
 
 
 
-        tileManager.repaint(g2,tileManager.mapBG);
-        // y-sorting
-        tileManager.repaint(g2,tileManager.mapMG);
-        player.repaint(g2);
+        if (!arcadeIsActive) {
+            tileManager.repaint(g2, tileManager.mapBG);
+            // y-sorting
+            tileManager.repaint(g2, tileManager.mapMG);
+            player.repaint(g2);
 
-        repaintEntitys(g2);
-
-
-
-        tileManager.repaint(g2,tileManager.mapFG);
+            repaintEntitys(g2);
 
 
-
-        //potenziell hier einen farbfilter rüberlegen für den ersten story part
-
+            tileManager.repaint(g2, tileManager.mapFG);
 
 
+            //potenziell hier einen farbfilter rüberlegen für den ersten story part
 
 
-        checkDialog();
-        showCineBar();
+            checkDialog();
+            showCineBar();
+
+        }else {
+            Main.wamAcardeManager.repaintGame(g2,this);
+        }
+
 
         //UI
 
@@ -1393,7 +1406,7 @@ public class GameDisplay extends JPanel implements MouseListener, MouseMotionLis
                     if (image != null) {
 
                         g2.drawImage(image, screenX, screenY, tileSize, tileSize, null);
-                        if (npc.leader!=null&&npc.leader.isSweating&&main.currentSweatSprite!=null){
+                        if (npc.leader!=null&&npc.isSweating&&main.currentSweatSprite!=null){
                             g2.drawImage(main.currentSweatSprite, screenX, screenY, tileSize, tileSize, null);
                         }
                     } else {

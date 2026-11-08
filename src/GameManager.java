@@ -84,6 +84,14 @@ public class GameManager {
                         gameDisplay.repaint();
 
                     }
+                    case WackAMole -> {
+                        gameDisplay.arcadeIsActive = true;
+                        gameDisplay.updateArcade();
+                        gameDisplay.repaint();
+
+
+
+                    }
                     case Inventory -> {
                         if (!main.invIsOpen){
                             gameDisplay.canStartAnimation = 0;

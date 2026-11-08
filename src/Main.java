@@ -539,6 +539,7 @@ public class Main {
     public static Transform transform;
     public static StoryManager storyManager;
     public static EventManager eventManager;
+    public static WAMArcadeManager wamAcardeManager;
 
 
 
@@ -558,7 +559,8 @@ public class Main {
         GRAPHICSETTINGS,
         DATEIAUSWAHL,
         KEY_BINDING,
-        Start_New_Game
+        Start_New_Game,
+        WackAMole
 
     }
 
@@ -980,6 +982,7 @@ public class Main {
         Main.gameDisplay = new GameDisplay(this);
         Main.gameManager = new GameManager(this);
         Main.collisionChecker = new CollisionChecker(this);
+        Main.wamAcardeManager = new WAMArcadeManager(this);
 
 
     }
@@ -1316,27 +1319,6 @@ public class Main {
         return null;
     }
 
-    public String getExternalPath(String relativePath) {
-        String finalPath;
-        try {
-            File externalFile = new File("assets"+shortVersion+"/" + relativePath);
-
-            if (externalFile.exists()) {
-                finalPath = "assets"+shortVersion+"/" + relativePath;
-                return finalPath;
-            }else {
-                finalPath = "assets/" + relativePath;
-                return finalPath;
-            }
-
-
-
-        } catch (Exception e) {
-            printErrOnDebug("Text oder Json konnte nicht geladen werden: " + relativePath);
-
-        }
-        return null;
-    }
 
     public boolean checkExternalPath(String relativePath) {
         File externalFile = new File("assets"+shortVersion+"/" + relativePath);
