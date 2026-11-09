@@ -29,11 +29,12 @@ public class WAMArcadeManager{
     }
 
     public void updateGame(){
-        Main.gameDisplay.scaleX = scaleX;
-        Main.gameDisplay.scaleY = scaleY;
+
 
     }
     public void repaintGame(Graphics2D g2, JPanel panel){
+        scaleX = (double) panel.getWidth() / 160;
+        scaleY= (double) panel.getHeight() / 90;
         g2.setColor(Color.RED);
         g2.fillRect(0,0,panel.getWidth()/2,panel.getHeight()/2);
 
