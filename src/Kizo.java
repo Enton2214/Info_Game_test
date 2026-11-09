@@ -16,7 +16,6 @@ public class Kizo extends Entity{
         interactable = true;
         variants = Variants.Purple;
         loadKizoFrames();
-        leader = Main.player;
 
         addToInventory(11);
         addToInventory(12);
